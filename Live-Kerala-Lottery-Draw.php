@@ -456,7 +456,7 @@ function display_youtube_live_broadcasts($atts = []) {
         else {
             nextDraw.setDate(nextDraw.getDate() + 1);
             nextDraw.setHours(13, 0, 0, 0);
-            nextDrawLabel = "Tomorrow's 1:00 PM Draw";
+            nextDrawLabel = "Next Live Broadcast: 1:00 PM Draw";
         }
 
         return { time: nextDraw, label: nextDrawLabel };
